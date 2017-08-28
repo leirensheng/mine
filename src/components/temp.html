@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  var obj={
+    a:"1",
+    b:{
+      a:"5",
+      b:"6",
+      c:[1,2,3],
+      d:{
+        e:{
+          f:'1',
+          g:'2'
+        }
+      }
+    }
+  }
+  var objStr = JSON.stringify(obj, null, 4);
+  console.log(objStr)
+</script>
+</body>
+</html>
